@@ -1,10 +1,14 @@
 import java.util.Scanner;
 
-public class project {
+public class Project {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("type: ");
-        String message = scanner.nextLine();
-        System.out.println(message + message + message);
+
+        System.out.println(function_name("Hello, world".toUpperCase()));
+
     }
+
+    public static String function_name(String s) {
+        return s + "!";
+    }
+
 }
